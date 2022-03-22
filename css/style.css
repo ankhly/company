@@ -671,9 +671,9 @@ body.ie ._ibg img {
 
 .search-form__input._active {
   border-radius: 28px;
-  outline: 1px solid #007dfb;
-  -webkit-box-shadow: 0px 0px 10px #00000033;
-          box-shadow: 0px 0px 10px #00000033;
+  outline: none;
+  -webkit-box-shadow: 0px 0px 10px #007dfb;
+          box-shadow: 0px 0px 10px #007dfb;
 }
 
 .icon-menu {
@@ -825,9 +825,29 @@ body.ie ._ibg img {
 
 .inp._active {
   border-radius: 28px;
-  outline: 1px solid #007dfb;
-  -webkit-box-shadow: 0px 0px 10px #00000033;
-          box-shadow: 0px 0px 10px #00000033;
+  outline: none;
+  -webkit-box-shadow: 0px 0px 10px #007dfb;
+          box-shadow: 0px 0px 10px #007dfb;
+}
+
+input::-webkit-input-placeholder {
+  color: #000000;
+}
+
+input::-moz-placeholder {
+  color: #000000;
+}
+
+input:-ms-input-placeholder {
+  color: #000000;
+}
+
+input::-ms-input-placeholder {
+  color: #000000;
+}
+
+input::placeholder {
+  color: #000000;
 }
 
 .page-form {
@@ -1093,7 +1113,7 @@ body.ie ._ibg img {
 }
 
 .salary-page {
-  background-color: #0000001a;
+  background-color: #f3f4f6;
 }
 
 .no-webp .salary-page__fullscrin{
