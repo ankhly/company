@@ -533,7 +533,7 @@ body.ie ._ibg img {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   color: #000000;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 400;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1638,6 +1638,10 @@ input::placeholder {
     position: relative;
   }
 
+  .menu__link {
+    font-size: 25px;
+  }
+
   .spoller-block {
     z-index: 10;
     position: absolute;
@@ -1740,10 +1744,6 @@ input::placeholder {
 
   .menu__item {
     position: relative;
-  }
-
-  .menu__link {
-    font-size: 30px;
   }
 
   .spoller-block__title {
@@ -1913,10 +1913,6 @@ input::placeholder {
 
   .header__logo {
     font-size: calc(10px + 25 * ((100vw - 320px) / 840));
-  }
-
-  .menu__link {
-    font-size: calc(14px + 11 * ((100vw - 320px) / 840));
   }
 
   .spoller-block__title {
