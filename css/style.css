@@ -563,8 +563,8 @@ body.ie ._ibg img {
 
 .spoller-block {
   position: absolute;
-  top: 40px;
-  left: 55px;
+  top: 50px;
+  left: 150px;
 }
 
 .spoller-block__title {
@@ -1743,7 +1743,7 @@ input::placeholder {
   }
 
   .menu__link {
-    font-size: 22px;
+    font-size: 30px;
   }
 
   .spoller-block__title {
