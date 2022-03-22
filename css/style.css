@@ -673,8 +673,6 @@ body.ie ._ibg img {
   outline-color: #007dfb;
   -webkit-box-shadow: 0px 0px 4px #007dfb;
           box-shadow: 0px 0px 4px #007dfb;
-  outline-style: none;
-  -webkit-outline-style: auto;
 }
 
 .icon-menu {
@@ -829,8 +827,6 @@ body.ie ._ibg img {
   outline-color: #007dfb;
   -webkit-box-shadow: 0px 0px 4px #007dfb;
           box-shadow: 0px 0px 4px #007dfb;
-  outline-style: none;
-  -webkit-outline-style: auto;
 }
 
 input::-webkit-input-placeholder {
