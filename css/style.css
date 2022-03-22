@@ -666,12 +666,11 @@ body.ie ._ibg img {
   color: #707070;
   -webkit-box-shadow: 0px 0px 10px #007dfb;
           box-shadow: 0px 0px 10px #007dfb;
-  border-radius: 28px solid #007dfb;
+  border-radius: 28px;
 }
 
 .search-form__input._active {
-  border-radius: 28px;
-  outline-color: #007dfb;
+  outline-color: rgba(0, 125, 251, 0.5);
   -webkit-box-shadow: 0px 0px 4px #007dfb;
           box-shadow: 0px 0px 4px #007dfb;
 }
@@ -825,10 +824,9 @@ body.ie ._ibg img {
 }
 
 .inp._active {
-  border-radius: 28px;
-  outline-color: #007dfb;
-  -webkit-box-shadow: 0px 0px 4px #007dfb;
-          box-shadow: 0px 0px 4px #007dfb;
+  outline-color: rgba(0, 125, 251, 0.5);
+  -webkit-box-shadow: 0px 0px 10px #007dfb;
+          box-shadow: 0px 0px 10px #007dfb;
 }
 
 input::-webkit-input-placeholder {
